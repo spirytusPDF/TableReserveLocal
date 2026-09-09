@@ -1,5 +1,5 @@
 To start the server I use cmd.
-I open the folder with server and then use "start node.js".
+I open the folder with server and then use "node server.js".
 
 
 Prompts that I planned to use, but used only some of them:
