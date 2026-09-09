@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Reservation</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Restaurant Reservation Manager</h1>
+
+<section>
+    <h2>Create New Reservation</h2>
+
+    <form id="new-reservation-form">
+        <fieldset>
+            <legend>New Reservation</legend>
+
+            <label for="name">Name</label>
+            <select id="name">
+                <option value="" disabled selected>Client Name</option>
+            </select>
+
+            <label for="tableNumber">Table</label>
+            <select id="tableNumber">
+                <option value="" disabled selected>Table</option>
+            </select>
+
+            <label for="date">Date</label>
+            <input type="date" id="date">
+
+            <label for="time">Time</label>
+            <input type="time" id="time">
+
+            <label for="peopleAmount">Number of people</label>
+            <input type="number" id="peopleAmount" min="1" max="18" step="1">
+
+            <button id="reserve">Reserve</button>
+            <p id="reservationMessage"></p>
+        </fieldset>
+    </form>
+</section>
+
+<section>
+    <h2>Search reservations</h2>
+
+    <label for="nameSearch">Name</label>
+    <input id="nameSearch" type="text">
+    <button id="search">Search</button>
+
+    <div id="searchInfo">
+        <p id="outputSearch"></p>
+        <button id="removeReservation">Remove</button>
+    </div>
+</section>
+
+<section id="customer-count-section">
+    <h2>Number of customers:</h2>
+    <p id="customersAmount">0</p>
+</section>
+</body>
+</html>

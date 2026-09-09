@@ -1,0 +1,49 @@
+{
+  "tables": [
+    {
+      "id": 1,
+      "free": false
+    },
+    {
+      "id": 2,
+      "free": true
+    },
+    {
+      "id": 3,
+      "free": true
+    },
+    {
+      "id": 4,
+      "free": true
+    },
+    {
+      "id": 5,
+      "free": true
+    }
+  ],
+  "reserves": [
+    {
+      "id": 2,
+      "client": "Emily",
+      "table": 1,
+      "date": "2026-09-03",
+      "time": "16:52",
+      "people": 2
+    }
+  ],
+  "lastReserveId": 2,
+  "clients": [
+    {
+      "id": 1,
+      "firstName": "Emily"
+    },
+    {
+      "id": 2,
+      "firstName": "Michael"
+    },
+    {
+      "id": 3,
+      "firstName": "Sophia"
+    }
+  ]
+}
