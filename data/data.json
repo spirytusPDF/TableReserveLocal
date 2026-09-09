@@ -18,7 +18,7 @@
     },
     {
       "id": 5,
-      "free": true
+      "free": false
     }
   ],
   "reserves": [
@@ -29,9 +29,17 @@
       "date": "2026-09-03",
       "time": "16:52",
       "people": 2
+    },
+    {
+      "id": 3,
+      "client": "Sophia",
+      "table": 5,
+      "date": "2026-09-18",
+      "time": "22:54",
+      "people": 4
     }
   ],
-  "lastReserveId": 2,
+  "lastReserveId": 3,
   "clients": [
     {
       "id": 1,
